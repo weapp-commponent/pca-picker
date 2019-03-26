@@ -1,0 +1,6 @@
+<view class="pca--picker">
+  <view class="pca--picker__mask"></view>
+  <view class="pca--picker__container">
+    13
+  </view>
+</view>
