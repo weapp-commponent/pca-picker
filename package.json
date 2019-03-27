@@ -1,7 +1,7 @@
 {
   "name": "miniprogram-pca-picker",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "小程序省市区三级联动组件",
   "main": "miniprogram_dist/index.js",
   "scripts": {
     "dev": "gulp dev --develop",
