@@ -1,7 +1,20 @@
 .pca--picker{
+  visibility: hidden;
   width: 100%;
   height: 100%;
 }
+.pca--picker.pca-show{
+  visibility: visible;
+}
+.pca--picker.pca-show .pca--picker__container{
+  transform: translateY(0);
+}
+.pca--picker.pca-show .pca--picker__mask{
+  opacity: 1;
+}
+
+
+
 .pca--picker__mask{
   position: fixed;
   top: 0;
@@ -9,4 +22,50 @@
   width: 100%;
   height: 100%;
   background: rgba(0,0,0,.7);
+  opacity: 0;
+  transition: all .3s;
+}
+.pca--picker__container{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  transform: translateY(100%);
+  width: 100%;
+  /*height: 400rpx;*/
+  background: #fff;
+  transition: all .5s;
+}
+.pca--picker__container_btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40rpx;
+  border-bottom: 1rpx solid #ccc;
+  font-size: 32rpx;
+}
+.cancel{
+  height: 80rpx;
+  line-height: 80rpx;
+  color: #666;
+}
+.confirm{
+  height: 80rpx;
+  line-height: 80rpx;
+  color: lightseagreen;
+}
+
+/*picker样式*/
+.picker-view{
+  width: 100%;
+  text-align: center;
+}
+.indicator{
+  /*height: 80rpx;*/
+  background: #ccc;
+}
+.pca--picker__container_picker{
+  display: flex;
+}
+.picker-view-column_item{
+  font-size: 32rpx;
 }

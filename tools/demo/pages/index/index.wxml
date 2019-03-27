@@ -1,1 +1,12 @@
-<comp></comp>
+<view class="pca-test">
+  <view bindtap="clickPCA">点击</view>
+  <comp
+      pca-arr="{{ pcaArr }}"
+      visible="{{isShow}}"
+      col="{{ col }}"
+      bindclose="close"
+      bindconfirm="confirm"
+      top-class="topClass"
+      cancel-class="cancelClass"
+      confirm-class="confirmClass"></comp>
+</view>
