@@ -10,7 +10,6 @@ yarn-error.log*
 
 test
 tools
-docs
 miniprogram_dev
 node_modules
 coverage

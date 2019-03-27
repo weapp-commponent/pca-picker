@@ -1,9 +1,19 @@
-.pca-test .topClass{
-  border-color: red;
+.clickBtn{
+  width: 200rpx;
+  height: 100rpx;
+  margin: 100rpx auto;
+  border-radius: 10rpx;
+  background: lightseagreen;
+  text-align: center;
+  line-height: 100rpx;
+  color: #fff;
 }
-.pca-test .cancelClass{
-  color: green;
-}
-.pca-test .confirmClass{
-  color: red;
-}
+/*.pca-test .topClass{*/
+  /*border-color: red;*/
+/*}*/
+/*.pca-test .cancelClass{*/
+  /*color: green;*/
+/*}*/
+/*.pca-test .confirmClass{*/
+  /*color: red;*/
+/*}*/

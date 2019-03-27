@@ -3,13 +3,12 @@
   <view class="pca--picker__container">
     <view class="top-class pca--picker__container_btn">
       <view bindtap="handleCloseClick" class="cancel-class cancel">取消</view>
-      {{ indicatorStyle }}
       <view bindtap="confirm" class="confirm-class confirm">确认</view>
     </view>
     <view class="pca--picker__container_picker">
       <!--省——S-->
       <block wx:if="{{ col > 0 }}">
-        <picker-view indicator-style="height: {{ pickerHeight/row + 'px'}}" indicator-style="{{ indicatorStyle }}" mask-style="{{ pickerMaskStyle }}" style="height: {{ pickerHeight + 'px' }}" value="{{ pIndex }}" bindchange="changeProvince" class="picker-view">
+        <picker-view indicator-style="height: {{ pickerHeight/row + 'px'}}; {{ indicatorStyle }}" mask-style="{{ pickerMaskStyle }}" style="height: {{ pickerHeight + 'px' }}" value="{{ pIndex }}" bindchange="changeProvince" class="picker-view">
           <picker-view-column>
             <view wx:for="{{pcaArr}}" wx:key="index" style="line-height: {{ pickerHeight/row + 'px'}};" class="picker-view-column_item">{{item[props.label]}}</view>
           </picker-view-column>
@@ -18,7 +17,7 @@
       <!--省——E-->
       <!--市——S-->
       <block wx:if="{{ col > 1 }}">
-        <picker-view indicator-style="height: {{ pickerHeight/row + 'px'}}" indicator-style="{{ indicatorStyle }}" mask-style="{{ pickerMaskStyle }}" style="height: {{ pickerHeight + 'px' }}" value="{{ cIndex }}" bindchange="changeCity" class="picker-view">
+        <picker-view indicator-style="height: {{ pickerHeight/row + 'px'}}; {{ indicatorStyle }}" mask-style="{{ pickerMaskStyle }}" style="height: {{ pickerHeight + 'px' }}" value="{{ cIndex }}" bindchange="changeCity" class="picker-view">
           <picker-view-column>
             <view wx:for="{{pcaArr[pIndex][props.children]}}" wx:key="index" style="line-height: {{ pickerHeight/row + 'px'}};" class="picker-view-column_item">{{item[props.label]}}</view>
           </picker-view-column>
@@ -27,7 +26,7 @@
       <!--市——E-->
       <!--区——S-->
       <block wx:if="{{ col > 2 }}">
-        <picker-view indicator-style="height: {{ pickerHeight/row + 'px'}}" indicator-style="{{ indicatorStyle }}" mask-style="{{ pickerMaskStyle }}" style="height: {{ pickerHeight + 'px' }}" value="{{ aIndex }}" bindchange="changeArea" class="picker-view">
+        <picker-view indicator-style="height: {{ pickerHeight/row + 'px'}}; {{ indicatorStyle }}" mask-style="{{ pickerMaskStyle }}" style="height: {{ pickerHeight + 'px' }}" value="{{ aIndex }}" bindchange="changeArea" class="picker-view">
           <picker-view-column>
             <view wx:for="{{pcaArr[pIndex][props.children][cIndex][props.children]}}" wx:key="index" style="line-height: {{ pickerHeight/row + 'px'}};" class="picker-view-column_item">{{item[props.label]}}</view>
           </picker-view-column>

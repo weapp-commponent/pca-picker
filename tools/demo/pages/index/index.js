@@ -5,6 +5,7 @@ Page({
     isShow: false,
     pcaArr: addressArr,
     col: 3,
+    row: 3,
     props: {
       label: 'name',
       value: 'code',
