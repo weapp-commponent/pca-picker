@@ -1,5 +1,5 @@
 {
-  "name": "pca-picker",
+  "name": "miniprogram-pca-picker",
   "version": "1.0.0",
   "description": "",
   "main": "miniprogram_dist/index.js",
