@@ -1,6 +1,6 @@
 {
   "name": "miniprogram-pca-picker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "小程序省市区三级联动组件",
   "main": "miniprogram_dist/index.js",
   "scripts": {
