@@ -155,7 +155,7 @@ Component({
           this.data.pcaArr[this.data.pIndex][childrenKey][this.data.cIndex][childrenKey][val]
       this.setData({
         aIndex: val,
-        aName: pcaArr[labelKey],
+        aLabel: pcaArr[labelKey],
         aCode: pcaArr[valueKey],
       })
     }
