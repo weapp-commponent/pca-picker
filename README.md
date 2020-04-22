@@ -4,9 +4,9 @@
 [github项目地址](https://github.com/weapp-commponent/pca-picker)
 ## 效果演示
 
-![省市区演示](docs/test_01.gif)
-![省市演示](docs/test_02.gif)
-![省演示](docs/test_03.gif)
+![省市区演示](http://img.coderdong.cn/weApp/test_01.gif)
+![省市演示](http://img.coderdong.cn/weApp/test_02.gif)
+![省演示](http://img.coderdong.cn/weApp/test_03.gif)
 
 ## 使用方法
 ### 1.安装pca-picker
@@ -141,7 +141,7 @@ pcaArr格式示例：
 }
 ```
 #### 3.效果
-![覆盖默认样式](docs/test_04.gif)
+![覆盖默认样式](http://img.coderdong.cn/weApp/test_04.gif)
 
 ### 修改滚动区域显示行数
 #### 1.在引用组件的页面.wxml中，设置row属性
@@ -155,7 +155,7 @@ pcaArr格式示例：
   </pca-picker>
 ```
 #### 2.效果
-![修改显示行数](docs/test_05.gif)
+![修改显示行数](http://img.coderdong.cn/weApp/test_05.gif)
 
 ### 修改选中行的样式
 #### 1.在引用组件的页面.wxml中，设置indicatorStyle
@@ -169,4 +169,4 @@ pcaArr格式示例：
   ></pca-picker>
 ```
 #### 2.效果
-![修改显示行数](docs/test_06.gif)
+![修改显示行数](http://img.coderdong.cn/weApp/test_06.gif)
